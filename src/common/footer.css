@@ -1,0 +1,59 @@
+.footer {
+    padding-block: 50px 40px;
+    background: rgb(10, 10, 100);
+    font-size: 13px;
+    color: rgb(136, 151, 199);
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
+    flex-wrap: wrap;
+
+}
+.footer .column {
+    width: 23%;
+}
+.footer .column p {
+    line-height: 1.2;
+    margin-bottom: 15px
+}
+.footer .column li {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.footer .column:last-child li {
+    cursor: text;
+}
+.footer h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.footer .logo {
+    color: orangered;
+    margin-top: 20px;
+    font-style: italic;
+}
+.footer button {
+    padding: 5px 8px;
+    color: #fff;
+    background-color: rgb(6, 6, 59);
+    border-radius: 5px;
+}
+.footer button i {
+    margin-right: 5px;
+}
+.footer button:first-child {
+    margin-right: 5px;
+}
+@media (max-width: 993px) {
+    .footer .column {
+        width: 49%;
+    }
+    .footer button {
+        font-size: 12px;
+    }
+}
+

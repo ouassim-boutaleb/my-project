@@ -1,0 +1,74 @@
+.banner {
+    padding-block: 30px 50px;
+    background-color: rgb(220, 234, 255);
+}
+.banner .container {
+    display: flex;
+    justify-content: space-between;
+}
+.banner .left {
+    width: 28%;
+    background: rgb(2, 60, 71);
+    color: #fff;
+    padding: 10px;
+    position: relative;
+    height: 280px;
+    overflow: hidden
+}
+.banner .right {
+    width: 70%;
+    color: #fff;
+    background: linear-gradient(to right, rgb(212, 212, 212) , rgb(29, 106, 133));
+    display: flex;
+    overflow: hidden;
+    text-align: center;
+    gap: 150px;
+    height: 280px;
+}
+.banner .right img {
+    height: 80%;
+    margin-top: -20px;
+}
+.banner .right h1 {
+    font-size: 40px;
+    font-weight: 700;
+    word-spacing: 10px;
+    margin-top: 40px;
+}
+.banner .right h3 {
+    font-size: 25px;
+    word-spacing: 10px;
+    
+}
+.banner .right span {
+    display: block;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.banner button {
+    padding: 2px 10px;
+    background: #fff;
+    color: rgb(2, 60, 71);
+    border-radius: 20px;
+    font-size: 13px;
+}
+.banner .left .discount {
+    font-size: 22px;
+    font-weight: 700;
+}
+.banner .left img {
+    height: 60%;
+
+    margin: auto;
+    
+}
+.banner .bottom {
+    text-align: center;
+    margin-top: 10px;
+}
+@media (max-width:993px) {
+    .banner {
+        display: none;
+    }
+}

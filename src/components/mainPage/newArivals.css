@@ -1,0 +1,46 @@
+.newArivals {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: rgb(220, 234, 255);
+}
+.newArivals .heading {
+    display: flex;
+    justify-content: space-between;
+}
+.newArivals .heading > div {
+    display: flex;
+    gap: 5px;
+    align-items: start;
+    font-weight: 700;
+}
+.newArivals .heading .more span {
+    font-weight: 600;
+}
+.newArivals .content {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.newArivals .box {
+    background-color: #fff;
+    padding: 15px;
+    
+    
+}
+.newArivals .image {
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.newArivals .image img {
+    
+    height: 100%;
+    
+}
+.newArivals .box h3 {
+    font-weight: 600;
+    color:rgb(0, 0, 55)
+}
+.newArivals .box span {
+    color: #333;
+    font-size: 15px;
+}

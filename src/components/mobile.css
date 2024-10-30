@@ -1,0 +1,98 @@
+.mobilePhones {
+    padding-block: 30px 50px;
+    background-color: rgb(220, 234, 255);
+}
+.mobilePhones .container {
+    display: flex;
+    align-items: start;
+    gap: 40px;
+}
+
+
+.mobilePhones .left {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(196, 196, 196);
+    width: 20%;
+}
+.mobilePhones .left .top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #777;
+}
+.mobilePhones .left .active {
+    color: #000;
+}
+.mobilePhones .left .top span:first-child {
+    padding-right: 50px;
+    border-right: 2px solid #ccc;
+}
+.mobilePhones .left .brands ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 80px;
+}
+.mobilePhones .left ul li {
+    padding: 8px 7px;
+    background: rgb(220, 234, 255);
+    border-radius: 5px;
+    color: #333;
+    transition: .2s;
+    cursor: pointer;
+}
+.mobilePhones .left li:hover {
+    background: #fff;
+    box-shadow: 0 0 5px rgb(196, 196, 196);
+}
+.mobilePhones .left li i {
+    margin-right: 10px;
+}
+.mobilePhones .brands button {
+    margin: 0 auto;
+    display: block;
+    background: rgb(220, 234, 255);
+    width: 100%;
+    padding: 8px ;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-weight: 450;
+}
+.mobilePhones .right {
+    
+    flex: 1;
+    
+}
+.mobilePhones .heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+}
+.mobilePhones .right .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+.mobilePhones .right .card {
+    width: 31%;
+}
+.mobilePhones .card {
+    box-shadow: 0 0 10px rgb(200, 200, 200);
+}
+
+@media (max-width: 993px) {
+    .mobilePhones .left {
+        display: none;
+    }
+}
+@media (max-width : 768px) {
+    .mobilePhones .right .card {
+        width: 48%;
+    }
+}

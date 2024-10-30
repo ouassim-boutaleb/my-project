@@ -1,0 +1,101 @@
+.flashDeals {
+    background-color: rgb(220, 234, 255);
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.heading i {
+    color: orangered;
+}
+.heading h3 {
+    font-weight: 600;
+}
+ .card {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.card .heart {
+    position: absolute;
+    right: 15px;
+    top: 40px;
+    display: none;
+}
+.card:hover .heart {
+    display: block;
+}
+.card .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card .top .discount {
+    padding: 5px 8px;
+    background: orangered;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 20px;
+}
+.card .top .quantity {
+    padding: 2px 10px;
+    background: rgb(164, 164, 164);
+    color: #fff;
+    font-size: 10px;
+    border-radius: 10px;
+    display: none;
+}
+.card .product {
+    width: 100%;
+    margin-block: 30px;
+    
+}
+.card img {
+    width: 200px;
+    margin: 0 auto;
+}
+.card .title {
+    font-size: 15px;
+    font-weight: 600;
+}
+.card .stars {
+    margin-block: 5px;
+    color: rgb(255, 204, 0);
+}
+.card .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card .bottom .price {
+    color: orangered;
+    font-size: 15px;
+    font-weight: 600;
+}
+.card .bottom .add {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 2px;
+    color: orangered;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid rgb(213, 213, 213);
+    transition: .2s;
+    
+}
+.card .bottom .add:hover {
+    background: orangered;
+    color: #fff;
+    border: none;
+
+}
+.card:hover .top .quantity {
+    display: block;
+}
+

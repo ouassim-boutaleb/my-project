@@ -1,0 +1,33 @@
+.bigDiscount {
+    background-color:rgb(220, 234, 255) ;
+    padding-block: 30px 50px;
+}
+
+.bigDiscount .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading .title {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.bigDiscount .content {
+    margin-top: 30px;
+}
+.bigDiscount img {
+    height: 200px;
+}
+
+.bigDiscount .box {
+    padding:15px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.bigDiscount .box h3 {
+    color: rgb(0, 0, 58);
+    font-weight: 600;
+    margin-top: 10px;
+}
